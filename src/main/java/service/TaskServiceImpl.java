@@ -14,7 +14,7 @@ import util.TaskStatus;
 public class TaskServiceImpl implements TaskService {
 
   private List<Task> tasks = new ArrayList<>();
-  private static final String FILE_PATH = "D:\\Estudios Backend\\javaLearning\\TaskCLI\\src\\main\\resources\\tasks.txt";
+  private static final String FILE_PATH = "src/main/resources/tasks.txt";
 
   public TaskServiceImpl() {
     this.tasks = loadTasks();
